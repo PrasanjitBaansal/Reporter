@@ -15,7 +15,7 @@ source .venv/bin/activate
 
 # Create and activate a virtual environment (Windows)
 python -m venv .venv
-.\.venv\Scriptsctivate
+.\.venv\Scripts\activate
 
 # Install required packages
 pip install -r requirements.txt
