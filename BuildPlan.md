@@ -7,6 +7,7 @@ This document provides all necessary instructions, specifications, and source co
 ---
 
 ## **Phase 0: Project Scaffolding**
+**Status:** Done (2024-03-08)
 
 **Action:** Create the following directory and file structure. All files should be empty initially.
 
@@ -38,6 +39,7 @@ kranos-reporter/
 ---
 
 ## **Phase 1: Configuration & Specification**
+**Status:** Done (2024-03-08)
 
 **Action:** Populate the project's configuration and specification files with the exact content below.
 
@@ -199,10 +201,11 @@ The application uses an SQLite database with the following tables:
 ---
 
 ## **Phase 2: Data Modeling and Schema Definition**
+**Status:** In Progress (2024-03-08)
 
 **Action:** Define the data structures and the database schema.
 
-### **2.1 `database.py`**
+### **2.1 `database.py`** - Done (2024-03-08)
 
 **Path:** `kranos-reporter/reporter/database.py`
 
@@ -278,7 +281,7 @@ def initialize_database():
     conn.close()
 ```
 
-### **2.2 `models.py`**
+### **2.2 `models.py`** - Done (2024-03-08)
 
 **Path:** `kranos-reporter/reporter/models.py`
 
