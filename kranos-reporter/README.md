@@ -15,7 +15,7 @@ source .venv/bin/activate
 
 # Create and activate a virtual environment (Windows)
 python -m venv .venv
-.\.venv\Scripts\activate
+.\.venv\Scriptsctivate
 
 # Install required packages
 pip install -r requirements.txt
@@ -64,3 +64,22 @@ To run the automated test suite, use `pytest`:
 ```bash
 pytest
 ```
+---
+
+## **Execution Workflow Summary**
+
+1.  **Install Dependencies:**
+
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+2.  **Migrate Database:**
+    - Place `Kranos MMA Members.xlsx - GC.csv` and `Kranos MMA Members.xlsx - PT.csv` in the root `kranos-reporter/` directory.
+    - Run: `python -m reporter.migrate_historical_data`
+
+3.  **Run Application:**
+
+    ```bash
+    streamlit run reporter/main.py
+    ```
